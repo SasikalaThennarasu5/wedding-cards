@@ -23,10 +23,35 @@ const Footer = () => {
           <div className="flex items-center gap-3 mt-4">
             <span className="text-sm font-medium">Follow us with</span>
             <div className="flex gap-3 text-xl text-gray-700">
-              <a href="#"><FaInstagram className="hover:text-amber" /></a>
-              <a href="#"><FaFacebookF className="hover:text-amber" /></a>
-              <a href="#"><FaYoutube className="hover:text-amber" /></a>
-              <a href="#"><FaWhatsapp className="hover:text-amber" /></a>
+              <a
+  href="https://www.instagram.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaInstagram className="hover:text-amber" />
+</a>
+<a
+  href="https://www.facebook.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaFacebookF className="hover:text-amber" />
+</a>
+<a
+  href="https://www.youtube.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaYoutube className="hover:text-amber" />
+</a>
+<a
+  href="https://wa.me/919876543210"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <FaWhatsapp className="hover:text-amber" />
+</a>
+
             </div>
           </div>
         </div>
