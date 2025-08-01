@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../assets/images/COURSES.png"; // Update with actual image path
+import bgImage from "../assets/images/bgimage.png"; // Update with actual image path
 
 const CourseCard = ({ title, desc, offer, oldPrice, newPrice }) => {
   return (
