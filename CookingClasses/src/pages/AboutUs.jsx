@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import ChatSection from '../Components/Inbox';
+import ChatSection from '../components/Inbox';
 import Chefcooking from "../assets/images/Group 24.png";
 import Rectangle1 from "../assets/images/Rectangle 26.png";
 import Rectangle2 from "../assets/images/Group 40.png";
